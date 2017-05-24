@@ -1,0 +1,15 @@
+if ! [ -x "$(command -v apt)" ]; then
+	# assume nixos
+else
+	# assume debian/ubuntu
+	alias u="sudo apt update"
+	alias s="apt-cache search"
+	alias i="sudo apt update; sudo apt install"
+	alias uu="sudo apt update; sudo apt dist-upgrade"
+	alias p="sudo apt purge"
+	alias ar="sudo apt-get autoremove"
+fi
+
+alias e="emacsclient -nw"
+alias du1="du --max-depth 1 -h"
+alias http='python -m SimpleHTTPServer 8000'
