@@ -1,4 +1,4 @@
-export EDITOR="emacs"
+export EDITOR="vim"
 export TERM="xterm"
 
 if [[ -d "$HOME/bin" ]]; then
