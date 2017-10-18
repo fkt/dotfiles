@@ -1,7 +1,7 @@
 [options]
-font             = Monospace 7
+font             = Monospace bold 8
 allow_bold       = true
-scrollback_lines = 10000
+scrollback_lines = 100000
 
 [colors]
 # Base16 Monokai
