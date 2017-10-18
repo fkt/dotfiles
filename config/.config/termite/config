@@ -1,5 +1,5 @@
 [options]
-font             = Monospace bold 8
+font             = Monospace, Bold 8
 allow_bold       = true
 scrollback_lines = 100000
 
